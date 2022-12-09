@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Create React App으로 만든 phonebook입니다.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
