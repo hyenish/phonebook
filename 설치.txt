@@ -1,0 +1,11 @@
+==리덕스 ==
+https://redux.js.org/
+설치 : $ yarn add redux 
+
+== 리액트-리덕스  ==
+https://react-redux.js.org/
+설치 : $ yarn add react-redux
+
+== 리액트-부트스트랩 ==
+https://react-bootstrap.github.io/
+설치 : $ npm install react-bootstrap bootstrap

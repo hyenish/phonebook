@@ -1,0 +1,10 @@
+.form {
+	margin: 31px 0;
+}
+.button {
+	background-color: #7f669d;
+	border: none;
+}
+.button:hover {
+	background-color: #5e3f85;
+}
