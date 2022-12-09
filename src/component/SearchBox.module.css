@@ -2,9 +2,26 @@
 	margin: 31px 0;
 }
 .button {
-	background-color: #7f669d;
+	background-color: #ecb390;
 	border: none;
 }
 .button:hover {
-	background-color: #5e3f85;
+	background-color: #dd4a48;
+}
+.formControl {
+	font-size: 0.9rem;
+}
+.formControl:focus {
+	border-color: #d86c68;
+	box-shadow: 0 0 0 0.2rem #d86c68;
+}
+.formControl:active {
+	background-color: #dd4a48;
+}
+.formControl:focus-visible {
+	/* color: var(--bs-btn-hover-color); */
+	background-color: #dd4a48;
+	border-color: #dd4a48;
+	outline: 0;
+	box-shadow: #dd4a48;
 }

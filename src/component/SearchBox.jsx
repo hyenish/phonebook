@@ -20,6 +20,7 @@ const SearchBox = () => {
 						type="text"
 						placeholder="검색할 이름을 입력해주세요"
 						onChange={(e) => setKeyword(e.target.value)}
+						className={styles.formControl}
 					/>
 				</Col>
 				<Col xs="auto">

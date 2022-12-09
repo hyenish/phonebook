@@ -1,10 +1,18 @@
+@font-face {
+	font-family: "Pretendard-Regular";
+	src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+		format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
 img {
 	width: 70px;
 }
 .box {
 	margin: 10px 0;
 	padding: 12px;
-	border: 1px solid #7f669d;
+	border: 1px solid #ecb390;
 	border-radius: 0.375rem;
 }
 .text {
@@ -15,8 +23,10 @@ img {
 	line-height: 1;
 }
 h5 {
+	font-family: "Pretendard-Regular";
 	color: #222;
 }
 p {
+	font-family: "Pretendard-Regular";
 	color: #666;
 }

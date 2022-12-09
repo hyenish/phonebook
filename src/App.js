@@ -6,18 +6,20 @@ import ContactList from "./component/ContactList";
 
 function App() {
 	return (
-		<div className={styles.app}>
-			<h1>Phone Book</h1>
-			<Container>
-				<Row>
-					<Col sm="6">
-						<ContactForm />
-					</Col>
-					<Col sm="6">
-						<ContactList />
-					</Col>
-				</Row>
-			</Container>
+		<div className={styles.all}>
+			<div className={styles.app}>
+				<h1>Phone Book</h1>
+				<Container>
+					<Row>
+						<Col sm="6">
+							<ContactForm />
+						</Col>
+						<Col sm="6">
+							<ContactList />
+						</Col>
+					</Row>
+				</Container>
+			</div>
 		</div>
 	);
 }

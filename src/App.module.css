@@ -1,9 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.all {
+	height: 100vh;
+	background: #c0d8c0;
+}
 .app {
-	margin-top: 70px;
-	background-color: #debace;
+	position: relative;
+	width: 70%;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0 auto;
+	padding: 50px 10px;
+	border-radius: 30px;
+	background-color: #f5eedc;
+	box-shadow: 0 0 10px #777777;
 }
 
 h1 {
+	padding: 15px 0;
+	font-weight: 400;
+	font-family: "Unbounded", cursive;
 	text-align: center;
 	text-transform: uppercase;
+	color: #333;
 }
